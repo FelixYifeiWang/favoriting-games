@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css */
+.App {
+  padding: 20px;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.app-body {
+  display: flex;
+  margin-top: 20px;
+}
+
+.App .game-list-container {
+  flex-grow: 1;
+}
+
+.App .list-container {
+  min-width: 300px;
+  margin-left: 20px;
+  overflow: auto;
+}
+
+/* App.css */
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-content {
+  flex-grow: 1;
+}
+
+.sorting-and-filtering, .game-list {
+  margin-bottom: 20px;
+}
+
+.filter-block {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.list-container {
+  width: 300px; /* or your preferred width */
+  margin-left: 20px;
+}

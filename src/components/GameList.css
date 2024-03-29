@@ -1,0 +1,17 @@
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start; /* Align items to the left */
+}
+
+/* You can adjust the width, margin, and padding as needed */
+.game-item {
+  width: 200px; /* Width of each game item card */
+  border: 1px solid #ccc; /* Border for the cards */
+  border-radius: 5px; /* Optional: for rounded corners */
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds shadow to cards */
+  background-color: white; /* Card background color */
+}
+
