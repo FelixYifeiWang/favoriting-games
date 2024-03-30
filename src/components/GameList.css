@@ -7,7 +7,7 @@
 
 /* You can adjust the width, margin, and padding as needed */
 .game-item {
-  width: 200px; /* Width of each game item card */
+  width: 300px; /* Width of each game item card */
   border: 1px solid #ccc; /* Border for the cards */
   border-radius: 5px; /* Optional: for rounded corners */
   padding: 10px;
