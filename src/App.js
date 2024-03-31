@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import GameList from './components/GameList';
-import gamesData from './data/gamesData'; // Importing the game data
+import gamesData from './data/gamesData'; 
 
 function App() {
   const [list, setList] = useState([]);
@@ -26,7 +26,7 @@ function App() {
   };
 
   const handleResetList = () => {
-    setList([]); // Clears the list
+    setList([]); 
   };
 
   const resetFiltersAndSorting = () => {
@@ -34,7 +34,7 @@ function App() {
     setMinPrice('');
     setMaxPrice('');
     setMinRating('');
-    setSortMethod('alphabetical'); // Set sorting back to default
+    setSortMethod('alphabetical');
   };
 
   const [isShareModalOpen, setIsShareModalOpen] = useState(false);
@@ -75,7 +75,7 @@ function App() {
       case 'ignRating':
         gamesCopy.sort((a, b) => b.ignRating - a.ignRating);
         break;
-      case 'alphabetical': // This is now the default case
+      case 'alphabetical':
       default:
         gamesCopy.sort((a, b) => a.name.localeCompare(b.name));
         break;
@@ -167,7 +167,7 @@ function App() {
         <div className="list-container">
           <div className="list-header">
             <h2>{listTitle}</h2>
-            {isRenaming && ( // Only show the button if there are items in the list
+            {isRenaming && (
               <input 
                 type="text" 
                 value={listTitle} 
@@ -193,7 +193,7 @@ function App() {
               <p>Your list is empty.</p>
             </div>
           )}
-          {list.length > 0 && ( // Only show the button if there are items in the list
+          {list.length > 0 && (
             <button onClick={handleShareClick} className="share-button button">Share</button>
           )}
           {isShareModalOpen && (
@@ -208,7 +208,7 @@ function App() {
               <button onClick={() => setIsShareModalOpen(false)} className='button'>Close</button>
             </div>
           )}
-          {list.length > 0 && ( // Only show the button if there are items in the list
+          {list.length > 0 && (
             <button onClick={handleResetList} className="reset-list-btn button">Reset</button>
           )}
         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import GameItem from './GameItem';
-import './GameList.css'; // Import the CSS file for styling
+import './GameList.css';
 
 const GameList = ({ games, onAddToList, onRemoveFromList, list }) => (
   <div className="game-list">

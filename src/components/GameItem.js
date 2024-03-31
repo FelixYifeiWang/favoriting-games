@@ -1,6 +1,5 @@
-// src/components/GameItem.js
 import React from 'react';
-import './GameItem.css'; // Ensure this is correctly importing your CSS file
+import './GameItem.css';
 
 const GameItem = ({ game, onAddToList, onRemoveFromList, isInList }) => (
   <div className="game-item">
