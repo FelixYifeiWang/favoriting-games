@@ -22,6 +22,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 If you need more advanced commands, you can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 ## Known bugs:
-Currently, there are no known bugs.\
+
+Currently, there are no known bugs.
 
 However, one inconvenience to note is that filling in the price and rating filters may result in the numbers changing when scrolling up or down. This behavior is a built-in feature of HTML input fields and may be useful for some users. To prevent unintended changes, please ensure to click somewhere else after entering the number before scrolling.
