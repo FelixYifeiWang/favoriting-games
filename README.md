@@ -19,7 +19,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you need more advanced commands, you can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 ## Known bugs:
 Currently, there are no known bugs.\
